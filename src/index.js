@@ -12,8 +12,6 @@ const location = (string) => {
         const temp = (`The current temperature in Farenheit is: ${response.current.temp_f}`)
         const wind = (`The current wind speed in MPH is: ${response.current.wind_mph}`)
         
-        
-        
         displayInfo.textContent = (`${temp}, ${wind}`)
 
         })
